@@ -12,7 +12,7 @@ The Elysia-based server implementation is currently experiencing issues with tRP
 
 ## Switching Between Servers
 
-To switch between the Elysia and Express servers, update this line to switch between servers:
+To switch between the Elysia and Express servers, update this line in `client/src/trpc-client.tsx` to switch between servers:
 
 - For Elysia server: `import type { TrpcRouter } from '@elysia-server/index.ts'`
 - For Express server: `import type { TrpcRouter } from '@express-server/index.ts'`
