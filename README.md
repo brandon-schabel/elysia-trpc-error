@@ -2,9 +2,9 @@
 
 This repository demonstrates an issue with the current version of Elysia tRPC. It contains three main components:
 
-- `@elysia-server`: An Elysia-based server implementation
-- `@express-server`: An Express-based server implementation
-- `@client`: A client application
+- `elysia-server`: An Elysia-based server implementation
+- `express-server`: An Express-based server implementation
+- `client`: A client application
 
 ## Issue Description
 
